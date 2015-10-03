@@ -12,10 +12,8 @@
 @interface RecipeBook : NSObject
 
 @property (nonatomic) NSMutableArray *recipes;
-@property (nonatomic) NSMutableArray *sortedRecipesName;
 
 - (void)addRecipe:(Recipe *)recipe;
-- (void)createNameArray;
 - (void)generateRecipeBook;
 - (void)removeRecipe:(Recipe *)recipe;
 

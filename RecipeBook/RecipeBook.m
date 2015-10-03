@@ -10,7 +10,7 @@
 
 @implementation RecipeBook
 
-@synthesize recipes, sortedRecipesName;
+@synthesize recipes;
 
 - (id)init {
     recipes = [[NSMutableArray alloc] init];
@@ -18,8 +18,12 @@
     return self;
 }
 
+/*!
+ * Given the file containing recipes, generates the recipe book. To switch the active file,
+ * change the pathForResource to the desired file.
+ */
 - (void)generateRecipeBook {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"recipe_60000a" ofType:@"txt"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"recipe_10" ofType:@"txt"];
     NSString *contents = [NSString stringWithContentsOfFile:path encoding:NSASCIIStringEncoding error:nil];
     NSArray *lines = [contents componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\r\n"]];
     
@@ -57,34 +61,39 @@
         
         Recipe *recipe = [[Recipe alloc] initWithName:name type:type cuisine:cuisine main:main addons:addons sides:sides ingredients:ingredients prep:prepTime cook:cookTime total:totalTime];
         
-        [recipes addObject:recipe];
+        [self addRecipe:recipe];
     }
 }
 
+/*!
+ * Inserts a recipe into the sorted array of recipes.
+ * @param recipe The recipe to add.
+ */
 - (void)addRecipe:(Recipe *)recipe {
     NSComparator comparator = ^NSComparisonResult(id obj1, id obj2) {
         return [[obj1 name] compare:[obj2 name] options:NSCaseInsensitiveSearch];
     };
     
-    NSUInteger newIndex = [sortedRecipesName indexOfObject:recipe inSortedRange:(NSRange) {0, [sortedRecipesName count]} options:NSBinarySearchingInsertionIndex usingComparator:comparator];
+    NSUInteger newIndex = [recipes indexOfObject:recipe inSortedRange:(NSRange) {0, [recipes count]} options:NSBinarySearchingInsertionIndex usingComparator:comparator];
     
-    [sortedRecipesName insertObject:recipe atIndex:newIndex];
+    [recipes insertObject:recipe atIndex:newIndex];
 }
 
-- (void)createNameArray {
-    [recipes sortUsingComparator: ^NSComparisonResult(id obj1, id obj2) {
-        return [[obj1 name] compare:[obj2 name] options:NSCaseInsensitiveSearch];
-    }];
-    
-    sortedRecipesName = recipes;
-}
-
+/*!
+ * Getter to retrieve a specific recipe.
+ * @param number The index number of the recipe to retrieve.
+ * @return The recipe at the index of the recipes array.
+ */
 - (Recipe *)recipe:(NSInteger)number {
     return recipes[number];
 }
 
+/*!
+ * Removes a recipe from the array of recipes. Used for deletion of recipes.
+ * @param recipe The recipe to remove.
+ */
 - (void)removeRecipe:(Recipe *)recipe {
-    [sortedRecipesName removeObject:recipe];
+    [recipes removeObject:recipe];
 }
 
 @end

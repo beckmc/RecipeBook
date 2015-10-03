@@ -63,7 +63,7 @@
 }
 
 /*!
- * Checks that the name field, ingredients field, and time fields are filled out.
+ * Checks that the name field, main ingredients field, and time fields are filled out.
  * Also makes sure both time fields have integer values and aren't zero.
  */
 - (IBAction)editingChanged:(id)sender {

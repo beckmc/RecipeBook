@@ -673,8 +673,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="456" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3xg-S6-Jxl">
-                                <rect key="frame" x="100" y="233" width="44" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3xg-S6-Jxl">
+                                <rect key="frame" x="98" y="233" width="44" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Name:" id="c4n-m3-fuC">
                                     <font key="font" metaFont="system"/>
@@ -682,8 +682,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFL-8i-aFC">
-                                <rect key="frame" x="107" y="208" width="37" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qFL-8i-aFC">
+                                <rect key="frame" x="104" y="208" width="38" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Type:" id="DPL-IQ-v49">
                                     <font key="font" metaFont="system"/>
@@ -691,8 +691,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FeY-Zz-8fY">
-                                <rect key="frame" x="91" y="183" width="53" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FeY-Zz-8fY">
+                                <rect key="frame" x="89" y="183" width="53" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cuisine:" id="tth-7z-5R3">
                                     <font key="font" metaFont="system"/>
@@ -700,8 +700,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rbS-BW-K0F">
-                                <rect key="frame" x="33" y="158" width="111" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rbS-BW-K0F">
+                                <rect key="frame" x="33" y="158" width="109" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Main Ingredients:" id="seU-Rq-Nws">
                                     <font key="font" metaFont="system"/>
@@ -709,8 +709,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZL0-zl-HuM">
-                                <rect key="frame" x="23" y="133" width="121" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZL0-zl-HuM">
+                                <rect key="frame" x="23" y="133" width="119" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Addon Ingredients:" id="5UY-Lc-Gu5">
                                     <font key="font" metaFont="system"/>
@@ -718,8 +718,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tM0-LP-Rfk">
-                                <rect key="frame" x="36" y="108" width="108" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tM0-LP-Rfk">
+                                <rect key="frame" x="36" y="108" width="106" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Side Ingredients:" id="r7k-C4-VQ2">
                                     <font key="font" metaFont="system"/>
@@ -727,8 +727,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i73-a2-Wfv">
-                                <rect key="frame" x="73" y="83" width="71" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="i73-a2-Wfv">
+                                <rect key="frame" x="72" y="83" width="70" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Prep Time:" id="WRC-ep-pMv">
                                     <font key="font" metaFont="system"/>
@@ -736,8 +736,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zGo-QU-Tcl">
-                                <rect key="frame" x="69" y="58" width="75" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zGo-QU-Tcl">
+                                <rect key="frame" x="69" y="58" width="73" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cook Time:" id="4Yt-zf-93U">
                                     <font key="font" metaFont="system"/>
@@ -745,8 +745,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ygU-QQ-hD0">
-                                <rect key="frame" x="150" y="228" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ygU-QQ-hD0">
+                                <rect key="frame" x="148" y="228" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="ZkX-Me-fss"/>
                                 </constraints>
@@ -760,8 +760,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="cwd-il-EWI"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="moo-Qo-3ei">
-                                <rect key="frame" x="150" y="153" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="moo-Qo-3ei">
+                                <rect key="frame" x="148" y="153" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="dKS-2E-n7p"/>
                                 </constraints>
@@ -775,8 +775,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="Y60-hb-dcI"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jsE-Fo-JSe">
-                                <rect key="frame" x="150" y="128" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jsE-Fo-JSe">
+                                <rect key="frame" x="148" y="128" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="Vec-ZY-4nO"/>
                                 </constraints>
@@ -790,8 +790,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="kS4-5z-iba"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wXx-kr-s5h">
-                                <rect key="frame" x="150" y="103" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wXx-kr-s5h">
+                                <rect key="frame" x="148" y="103" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="ZBU-yV-656"/>
                                 </constraints>
@@ -805,8 +805,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="T4K-GW-saa"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-rH-g8d">
-                                <rect key="frame" x="150" y="78" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-rH-g8d">
+                                <rect key="frame" x="148" y="78" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="ltv-k2-leo"/>
                                 </constraints>
@@ -820,8 +820,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="ohL-9L-URO"/>
                                 </connections>
                             </textField>
-                            <textField verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-fr-E3Z">
-                                <rect key="frame" x="150" y="53" width="266" height="22"/>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-fr-E3Z">
+                                <rect key="frame" x="148" y="53" width="268" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="zLg-WE-GLM"/>
                                 </constraints>
@@ -835,8 +835,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="iJ2-7x-AuN"/>
                                 </connections>
                             </textField>
-                            <comboBox verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-bK-xtz">
-                                <rect key="frame" x="150" y="201" width="269" height="26"/>
+                            <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="i9w-bK-xtz">
+                                <rect key="frame" x="148" y="201" width="271" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="DZ9-p6-IrZ"/>
                                 </constraints>
@@ -855,8 +855,8 @@
                                     <action selector="editingChanged:" target="Swa-qM-ydk" id="ele-SJ-1PC"/>
                                 </connections>
                             </comboBox>
-                            <comboBox verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KdO-1l-UxD">
-                                <rect key="frame" x="150" y="176" width="269" height="26"/>
+                            <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KdO-1l-UxD">
+                                <rect key="frame" x="148" y="176" width="271" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="fEa-i0-ygP"/>
                                 </constraints>
@@ -994,21 +994,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="474" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <scrollView misplaced="YES" autohidesScrollers="YES" horizontalLineScroll="22" horizontalPageScroll="10" verticalLineScroll="22" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEc-6c-3hK">
-                                <rect key="frame" x="20" y="40" width="177" height="250"/>
+                            <scrollView autohidesScrollers="YES" horizontalLineScroll="22" horizontalPageScroll="10" verticalLineScroll="22" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEc-6c-3hK">
+                                <rect key="frame" x="20" y="40" width="178" height="250"/>
                                 <clipView key="contentView" id="TKy-4s-vHp">
-                                    <rect key="frame" x="1" y="0.0" width="175" height="249"/>
+                                    <rect key="frame" x="1" y="0.0" width="176" height="249"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="20" rowSizeStyle="automatic" headerView="M2V-cx-rk7" viewBased="YES" id="5IG-r8-BXr">
-                                            <rect key="frame" x="0.0" y="0.0" width="175" height="226"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="176" height="226"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn identifier="RecipeName" width="172" minWidth="40" maxWidth="1000" id="eQy-Js-Ace">
+                                                <tableColumn identifier="RecipeName" width="173" minWidth="40" maxWidth="1000" id="eQy-Js-Ace">
                                                     <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Recipes:">
                                                         <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -1022,7 +1022,7 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="wIo-kO-ys8">
-                                                            <rect key="frame" x="1" y="1" width="172" height="20"/>
+                                                            <rect key="frame" x="1" y="1" width="173" height="20"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qS9-Hu-7rr">
@@ -1064,13 +1064,13 @@
                                     <animations/>
                                 </scroller>
                                 <tableHeaderView key="headerView" id="M2V-cx-rk7">
-                                    <rect key="frame" x="0.0" y="0.0" width="175" height="23"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="176" height="23"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableHeaderView>
                             </scrollView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Gb-yM-HSE">
-                                <rect key="frame" x="235" y="260" width="221" height="30"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0Gb-yM-HSE">
+                                <rect key="frame" x="236" y="260" width="220" height="30"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Recipe Name" id="b8D-e2-iuN">
                                     <font key="font" metaFont="system" size="25"/>
@@ -1078,8 +1078,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xMe-ea-hAY">
-                                <rect key="frame" x="256" y="235" width="37" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xMe-ea-hAY">
+                                <rect key="frame" x="257" y="235" width="38" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Type:" id="Qiy-X0-rem">
                                     <font key="font" metaFont="system"/>
@@ -1087,8 +1087,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0JI-vv-lMg">
-                                <rect key="frame" x="239" y="210" width="54" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0JI-vv-lMg">
+                                <rect key="frame" x="242" y="210" width="53" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cuisine:" id="EK3-Gj-qYa">
                                     <font key="font" metaFont="system"/>
@@ -1096,8 +1096,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yCo-9x-AZl">
-                                <rect key="frame" x="256" y="185" width="37" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yCo-9x-AZl">
+                                <rect key="frame" x="257" y="185" width="38" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Prep:" id="IfY-eM-UIh">
                                     <font key="font" metaFont="system"/>
@@ -1105,8 +1105,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UKL-YE-1bK">
-                                <rect key="frame" x="358" y="185" width="41" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UKL-YE-1bK">
+                                <rect key="frame" x="362" y="185" width="40" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cook:" id="ZZC-ZD-ebA">
                                     <font key="font" metaFont="system"/>
@@ -1114,8 +1114,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-8z-Jq3">
-                                <rect key="frame" x="307" y="160" width="77" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-8z-Jq3">
+                                <rect key="frame" x="308" y="160" width="76" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ingredients:" id="UT5-WH-bp3">
                                     <font key="font" metaFont="system"/>
@@ -1123,8 +1123,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Hp-mD-WgI">
-                                <rect key="frame" x="297" y="235" width="159" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Hp-mD-WgI">
+                                <rect key="frame" x="299" y="235" width="157" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Recipe Type" id="3M4-pJ-vDZ">
                                     <font key="font" metaFont="system"/>
@@ -1132,8 +1132,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MWr-RR-jfk">
-                                <rect key="frame" x="297" y="210" width="159" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MWr-RR-jfk">
+                                <rect key="frame" x="299" y="210" width="157" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Recipe Cuisine" id="KTt-Ke-Zzw">
                                     <font key="font" metaFont="system"/>
@@ -1141,8 +1141,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izm-Ki-NE1">
-                                <rect key="frame" x="403" y="185" width="43" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Izm-Ki-NE1">
+                                <rect key="frame" x="406" y="185" width="45" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="00000" id="xia-eL-r7x">
                                     <font key="font" metaFont="system"/>
@@ -1150,8 +1150,8 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alT-9i-dzh">
-                                <rect key="frame" x="297" y="185" width="43" height="17"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="alT-9i-dzh">
+                                <rect key="frame" x="299" y="185" width="45" height="17"/>
                                 <animations/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="00000" id="sgk-7h-nGp">
                                     <font key="font" metaFont="system"/>
@@ -1159,21 +1159,21 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <scrollView misplaced="YES" horizontalLineScroll="0.0" horizontalPageScroll="0.0" verticalLineScroll="0.0" verticalPageScroll="0.0" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWu-q1-vVh">
-                                <rect key="frame" x="241" y="44" width="213" height="108"/>
+                            <scrollView horizontalLineScroll="0.0" horizontalPageScroll="0.0" verticalLineScroll="0.0" verticalPageScroll="0.0" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWu-q1-vVh">
+                                <rect key="frame" x="244" y="44" width="210" height="108"/>
                                 <clipView key="contentView" id="szy-Y3-WOw">
-                                    <rect key="frame" x="1" y="1" width="211" height="106"/>
+                                    <rect key="frame" x="1" y="1" width="208" height="106"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView editable="NO" selectable="NO" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="L2V-88-8Xc">
-                                            <rect key="frame" x="0.0" y="0.0" width="217" height="106"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="214" height="106"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <animations/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="211" height="106"/>
+                                            <size key="minSize" width="208" height="106"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="211" height="106"/>
+                                            <size key="minSize" width="208" height="106"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -1192,8 +1192,8 @@
                                     <animations/>
                                 </scroller>
                             </scrollView>
-                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fzN-xa-QyC">
-                                <rect key="frame" x="241" y="12" width="213" height="19"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fzN-xa-QyC">
+                                <rect key="frame" x="242" y="12" width="214" height="19"/>
                                 <animations/>
                                 <buttonCell key="cell" type="roundRect" title="Delete Recipe" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="WOp-h4-elh">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -1203,8 +1203,8 @@
                                     <action selector="deleteSelectedRecipe:" target="BRo-xz-8zB" id="Pb2-65-K15"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-MR-TBB">
-                                <rect key="frame" x="20" y="12" width="177" height="19"/>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-MR-TBB">
+                                <rect key="frame" x="20" y="12" width="178" height="19"/>
                                 <animations/>
                                 <buttonCell key="cell" type="roundRect" title="Add" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7aL-q8-LCG">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -1214,8 +1214,8 @@
                                     <action selector="addButtonPressed:" target="BRo-xz-8zB" id="dHc-YW-GjZ"/>
                                 </connections>
                             </button>
-                            <box horizontalHuggingPriority="750" misplaced="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="EEg-ES-HYe">
-                                <rect key="frame" x="218" y="12" width="5" height="276"/>
+                            <box horizontalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="EEg-ES-HYe">
+                                <rect key="frame" x="219" y="12" width="5" height="276"/>
                                 <animations/>
                                 <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                                 <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

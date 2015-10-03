@@ -22,17 +22,19 @@
     recipeBook = [[RecipeBook alloc] init];
     [recipeBook generateRecipeBook];
     
-    [recipeBook createNameArray];
-    
-    recipeNames = [recipeBook sortedRecipesName];
+    recipeNames = [recipeBook recipes];
     
     [self setDetailInfo:recipeNames[0]];
     
     [deleteButton setEnabled:NO];
 }
 
+/*!
+ * Updates the table of recipes to match the current list of sorted recipes stored in the program.
+ * Called after deleting or adding a recipe.
+ */
 - (void)refreshData {
-    recipeNames = [recipeBook sortedRecipesName];
+    recipeNames = [recipeBook recipes];
     [recipeTable reloadData];
 }
 
@@ -65,6 +67,10 @@
     }
 }
 
+/*!
+ * Given a recipe, updates the labels in the program to display the information of the recipe.
+ * @param recipe The recipe to show the information of.
+ */
 -(void)setDetailInfo:(Recipe *)recipe {
     NSString *name;
     NSString *type;
@@ -91,6 +97,10 @@
     
 }
 
+/*!
+ * Called when the table selection is changed. Used to enable the delete button and update
+ * the information displayed to reflect the current recipe.
+ */
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification {
     Recipe *recipeInfo = [self selectedRecipe];
     
@@ -100,11 +110,20 @@
     [deleteButton setEnabled:YES];
 }
 
+/*!
+ * Action called when the add button is pressed to add a recipe. Presents as a modal window.
+ */
 - (IBAction)addButtonPressed:(id)sender {
     NSViewController *addViewController = [[self.storyboard instantiateControllerWithIdentifier:@"AddViewController"] initWithRecipeBook:recipeBook recipeTableViewController:self];
     [self presentViewControllerAsModalWindow:addViewController];
 }
 
+/*!
+ * Deletes the selected recipe from the recipe book. The recipe is removed from both the stored
+ * array of recipes and the in-app table. The first recipe in the list is then treated as the
+ * selected recipe and information is displayed, though it is not selected and can not be interacted
+ * with as a result.
+ */
 - (IBAction)deleteSelectedRecipe:(id)sender {
     Recipe *deleteRecipe = [self selectedRecipe];
     
@@ -112,7 +131,9 @@
     
     [self refreshData];
     
-    [self setDetailInfo:recipeNames[0]];
+    if ([[recipeBook recipes] count]) {
+        [self setDetailInfo:recipeNames[0]];
+    }
     
     [deleteButton setEnabled:NO];
 }

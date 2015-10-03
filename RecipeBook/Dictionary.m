@@ -12,6 +12,9 @@
 
 @synthesize meat, seafood, dairy, shellfish, dictionary;
 
+/*!
+ * Creates a dictionary defining what categories certain types of food are.
+ */
 - (id) init {
     
     meat = @[
