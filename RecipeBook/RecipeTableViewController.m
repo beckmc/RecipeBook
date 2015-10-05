@@ -86,8 +86,6 @@
     prep = [recipe prepTime];
     cook = [recipe cookTime];
     
-    ing = [ing stringByReplacingOccurrencesOfString:(NSString *)@" " withString:(NSString *)@", "];
-    
     [recipeName setStringValue:name];
     [recipeType setStringValue:type];
     [recipeCuisine setStringValue:cuisine];
@@ -102,12 +100,15 @@
  * the information displayed to reflect the current recipe.
  */
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification {
-    Recipe *recipeInfo = [self selectedRecipe];
+    //Make sure the cell is selected and not the table header
+    if ([self selectedRecipe]) {
+        Recipe *recipeInfo = [self selectedRecipe];
     
-    // Update info
-    [self setDetailInfo:recipeInfo];
+        // Update info
+        [self setDetailInfo:recipeInfo];
     
-    [deleteButton setEnabled:YES];
+        [deleteButton setEnabled:YES];
+    }
 }
 
 /*!

@@ -48,6 +48,7 @@
         sides = [sides stringByReplacingOccurrencesOfString:(NSString *)@"sides: " withString:(NSString *)@""];
         
         NSString *ingredients = [NSString stringWithFormat:@"%@ %@ %@", main, sides, addons];
+        ingredients = [ingredients stringByReplacingOccurrencesOfString:(NSString *)@" " withString:(NSString *)@", "];
         
         NSString *prep = lines[i + 6];
         prep = [prep stringByReplacingOccurrencesOfString:(NSString *)@"prep: " withString:(NSString *)@""];

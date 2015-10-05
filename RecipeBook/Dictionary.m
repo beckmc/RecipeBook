@@ -52,6 +52,11 @@
  
 }
 
+/*!
+ * Used to retrieve the elements stored at a specific key in the dictionary.
+ * @param key The dictionary key.
+ * @return The array of elements stored at that position in the dictionary.
+ */
 - (NSArray *)entry:(NSString *)key {
     return dictionary[key];
 }
