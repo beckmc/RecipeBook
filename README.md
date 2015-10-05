@@ -40,6 +40,9 @@ This implementation of the project differs from what was done in class in a few 
 ### Outputs:
 All recipes are output via a table. Recipe information is found beside the table populating labels and text fields.
 
+## So What Does This Look Like?
+![alt tag](https://raw.githubusercontent.com/beckmc/RecipeBook/master/RecipeBook/AppScreenshot.png)
+
 ## What's Next?
 - Touching up the add/delete functions - For adding recipes, which fields need populated vs which can be left empty needs to be determined. When deleting recipes, there currently is no confirmation when attempting to delete a recipe.
 - More documentation of code
