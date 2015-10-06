@@ -72,27 +72,12 @@
  * @param recipe The recipe to show the information of.
  */
 -(void)setDetailInfo:(Recipe *)recipe {
-    NSString *name;
-    NSString *type;
-    NSString *cuisine;
-    NSString *ing;
-    NSInteger prep;
-    NSInteger cook;
-    
-    name = [recipe name];
-    type = [recipe type];
-    cuisine = [recipe cuisine];
-    ing = [recipe ingredients];
-    prep = [recipe prepTime];
-    cook = [recipe cookTime];
-    
-    [recipeName setStringValue:name];
-    [recipeType setStringValue:type];
-    [recipeCuisine setStringValue:cuisine];
-    [ingredients setString:ing];
-    [prepTime setIntegerValue:prep];
-    [cookTime setIntegerValue:cook];
-    
+    [recipeName setStringValue:[recipe name]];
+    [recipeType setStringValue:[recipe type]];
+    [recipeCuisine setStringValue:[recipe cuisine]];
+    [ingredients setString:[recipe ingredients]];
+    [prepTime setIntegerValue:[recipe prepTime]];
+    [cookTime setIntegerValue:[recipe cookTime]];
 }
 
 /*!
@@ -126,17 +111,31 @@
  * with as a result.
  */
 - (IBAction)deleteSelectedRecipe:(id)sender {
-    Recipe *deleteRecipe = [self selectedRecipe];
+    //Alert to confirm deletion
+    NSAlert *deletionConfirmationAlert = [[NSAlert alloc] init];
+    deletionConfirmationAlert.messageText = @"Confirm Deletion";
+    deletionConfirmationAlert.informativeText = @"Are you sure you want to delete this recipe? This action cannot be undone.";
+    deletionConfirmationAlert.icon = nil;
+    //Cancel button == 1000, OK button == 1001
+    [deletionConfirmationAlert addButtonWithTitle:@"Cancel"];
+    [deletionConfirmationAlert addButtonWithTitle:@"OK"];
+    //Run alert, setting button equal to the button pressed 
+    NSInteger button = [deletionConfirmationAlert runModal];
     
-    [recipeBook removeRecipe:deleteRecipe];
+    //OK button is pressed
+    if (button == 1001) {
+        Recipe *deleteRecipe = [self selectedRecipe];
+        
+        [recipeBook removeRecipe:deleteRecipe];
     
-    [self refreshData];
+        [self refreshData];
     
-    if ([[recipeBook recipes] count]) {
-        [self setDetailInfo:recipeNames[0]];
+        if ([[recipeBook recipes] count]) {
+            [self setDetailInfo:recipeNames[0]];
+        }
+    
+        [deleteButton setEnabled:NO];
     }
-    
-    [deleteButton setEnabled:NO];
 }
 
 @end
