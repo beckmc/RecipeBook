@@ -35,7 +35,7 @@ This implementation of the project differs from what was done in class in a few 
 
 - Commands via button interaction. In the original project they were entered through the terminal. These commands include:
   * Add - Add a recipe. Prompt the user for the required information. A recipe cannot be added until all information is filled in to prevent blank recipes from being added
-  * Delete - Deletes the selected recipe from the program. Currently, there is no prompt for confirmation for this action, and no way to undo it.
+  * Delete - Prompts the user on if they want to delete the selected recipe, and if yes, deletes it from the program.
     
 ### Outputs:
 All recipes are output via a table. Recipe information is found beside the table populating labels and text fields.
