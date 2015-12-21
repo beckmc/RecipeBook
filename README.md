@@ -1,5 +1,5 @@
 # RecipeBook
-An Objective-C implementation of a project I wrote for my Data Structures and Algorithms class.
+An Objective-C implementation of a project I wrote for my Data Structures and Algorithms class. The orignal project can be found at https://github.com/beckmc/RecipeBook-CS150.
 
 ## The Project:
 The task was to design and implement an electronic cookbook, used to organize recipes and prepare meals. This program supports operations, such as:
